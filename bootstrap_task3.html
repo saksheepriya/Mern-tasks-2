@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for the pricing page */
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .pricing-card {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-card h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        /* Custom CSS for the footer */
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo {
+            max-width: 100px;
+        }
+
+        
+        a{
+            color:black;
+        }
+        .company-name{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="company-name"><b>Ethnus</b></div>
+                <div class="row">
+                    <div class="col-sm">Features</div>
+                    <div class="col-sm">Enterprise</div>
+                    <div class="col-sm">Support</div>
+                    <div class="col-sm">Pricing</div>
+                    <div class="col-sm"><a href="#" class="btn btn-primary">Sign Up</a></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Pricing</h1>
+        <p class="text-center mb-4">Quickly build an effecting pricing table for customers</p>
+        <div class="pricing-container">
+            <!-- Pricing Card 1 -->
+            <div class="pricing-card">
+                <h3>Free</h3>
+                
+                <p><strong>$0/month</strong></p>
+                <p>10 users included. 2GB support. Email support. Help center access.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <!-- Pricing Card 2 -->
+            <div class="pricing-card">
+                <h3>Pro</h3>
+                <p><strong>$15/month</strong></p>
+                <p>20 users include. 10 GB of support. Pirority email support. Help center access.</p>
+                
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <!-- Pricing Card 3 -->
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <p><strong>$29/month</strong></p>
+                <p>30 users included. 15 GB of storage. Phone and email support. Help center access.</p>
+                
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container ">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+          <div class="col mb-3">
+  
+            <img src="bootstrap-logo.svg" alt="Company Logo" class="footer-logo">
+          </div>
+  
+          <div class="col mb-3">
+  
+          </div>
+  
+          <div class="col mb-3">
+            <h5>Features</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cool Stuff</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Random Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Team Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+  
+          <div class="col mb-3">
+            <h5>Resources</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+  
+          <div class="col mb-3">
+            <h5>About</h5>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+
+    <!-- Include Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
